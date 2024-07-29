@@ -1,0 +1,21 @@
+{
+        "video"     : "/mnt/sd/data/video",
+        "image"     : "/mnt/sd/data/image",
+        "audio"     : "/mnt/sd/data/audio",
+        "temp_media": "/mnt/sd/data/temp",
+
+        "config"    : "/opt/bmit/app/configs",
+        "assets"    : "/opt/bmit/app/Assets",
+        "database"  : "/opt/bmit/app/dummy_database.db",
+        "backup"    : "/opt/bmit/app/backup",
+
+        "working_directory" : "/opt/bmit/app",
+        "info"      : "device_info.json",
+        "libs"      : "/opt/bmit/app/libs",
+
+        "for_dev"       : "",
+        "gst_pipeline"  : "",
+
+        "thumbnail_image"   : "/thumbnail_image.png",
+        "thumbnail_video"   : "/thumbnail_video.png"
+}

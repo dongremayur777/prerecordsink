@@ -1,0 +1,13 @@
+{
+"video_resolution"  : ["1440p", "1296p","1080p","720p"],
+"pre_recording"     : ["OFF", "5 sec", "10 sec", "30 sec", "1 min"],
+"post_recording"    : ["OFF", "5 sec", "10 sec", "30 sec", "1 min", "5 min", "10 min"],
+"video_duration"    : ["10 min", "20 min", "30 min"],
+"key_vibration"    : ["ON", "OFF"],
+"volume"            : ["Low", "Mid", "High"],
+"stealth"           : ["ON", "OFF"],
+"auto_screen_off"   : ["5 min", "10 min", "20 min", "30 min", "60 min"],
+"iR_mode"           : ["Auto", "Manual"],
+"watermark"         : ["ON", "OFF"],
+"voice_feedback"    : ["ON","OFF"]
+}

@@ -1,0 +1,19 @@
+Different Playing Pipelines for BodyCam Display  
+ 
+a)1440 
+ 
+ gst-launch-1.0 -v filesrc location=vid-2024-05-20-T-12-52-25.mp4  !  tsparse set-timestamps=true ! tsdemux name=demux   demux. ! queue ! decodebin ! videoconvert ! kmssink driver-name=tidss render-rectangle="<0,0,520,320>"   demux. ! queue ! decodebin ! audioconvert ! autoaudiosink sync=false 
+ 
+ 
+b)1296 
+ 
+gst-launch-1.0 -v filesrc location=filename.mp4  !  tsparse set-timestamps=true ! tsdemux name=demux   demux. ! queue ! decodebin ! autovideoconvert ! videoscale ! video/x-raw,width=240,height=180 ! kmssink driver-name=tidss  demux. ! queue ! decodebin ! audioconvert ! autoaudiosink sync=false 
+ 
+c)1232 
+ 
+gst-launch-1.0 -v filesrc location=720.mp4  !  tsparse set-timestamps=true ! tsdemux name=demux   demux. ! queue ! decodebin ! kmssink driver-name=tidss render-rectangle="<0,0,320,320>"  demux. ! queue ! decodebin ! audioconvert ! autoaudiosink sync=false 
+ 
+ 
+d)720 
+ 
+gst-launch-1.0 -v filesrc location=720.mp4  !  tsparse set-timestamps=true ! tsdemux name=demux   demux. ! queue ! decodebin ! kmssink driver-name=tidss render-rectangle="<0,0,400,320>"  demux. ! queue ! decodebin ! audioconvert ! autoaudiosink sync=false

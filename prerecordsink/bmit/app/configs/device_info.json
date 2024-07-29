@@ -1,0 +1,25 @@
+{
+    "info": {
+        "user_id": "backup"
+    },
+    "settings": {
+        "auto_power_off": "10 min",
+        "auto_screen_off": "5 min",
+        "burst_shot_mode": "OFF",
+        "enable_pin": "ON",
+        "iR_mode": "Manual",
+        "key_vibration": "OFF",
+        "loop_recording": "ON",
+        "motion_detection": "ON",
+        "password": "1111",
+        "post_recording": "10 secs",
+        "pre_recording": "10 secs",
+        "record_with_sound": "ON",
+        "stealth": "OFF",
+        "video_duration": "10 min",
+        "video_resolution": "720p",
+        "voice_feedback": "ON",
+        "volume": "Low",
+        "watermark": "OFF"
+    }
+}

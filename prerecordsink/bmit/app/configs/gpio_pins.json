@@ -1,0 +1,27 @@
+{
+    "Green"     : 99,
+    "Red"       : 101,
+    "Yellow"    : 98,
+    
+    "Ir_cut"    : 111,
+    "Ir_led_1"  : 107,
+    "Ir_led_2"  : 106,
+    
+    "FlashLight_white"  : 110,
+
+    "On"    : 1,
+    "Off"   : 0,
+
+    "Slow"  : 0,
+    "Medium": 1,
+    "Fast"  : 2,
+
+    "min_lux_threshold" : 5,
+    "max_lux_threshold" : 25,
+    "lux_threshold_1"   :"5",
+    "lux_threshold_2"   :"30",
+    "lux_threshold_3"   :"30",
+    "gain_low"          :"512",
+    "gain_med"          :"2096",
+    "gain_high"         :"4020"
+}
